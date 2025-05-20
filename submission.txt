@@ -1,0 +1,10 @@
+# Menjalankan skrip
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m pytest test
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest test
+
+# Database bersifat lokal sehingga tak bisa dilihat oleh reviewer, tapi dataframe yang berisi data yang difetch dari postgresql sudah saya tulis kodenya di pipeline.py
