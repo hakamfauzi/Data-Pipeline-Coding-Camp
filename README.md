@@ -4,14 +4,14 @@ Proyek ini membangun sebuah pipeline **ETL (Extract, Transform, Load)** untuk me
 
 ---
 
-## 📌 Tujuan
+## Tujuan
 
 - Mengotomatisasi proses pengambilan dan pembersihan data dari website kompetitor Fashion Studio.
 - Menyimpan data hasil scraping yang telah dibersihkan untuk digunakan pada proses analisis atau integrasi sistem lainnya.
 
 ---
 
-## 🛠️ Fitur
+## Fitur
 
 - Scraping data produk dari website.
 - Pembersihan data: konversi rating, harga, warna, dan validasi nilai string.
@@ -21,7 +21,7 @@ Proyek ini membangun sebuah pipeline **ETL (Extract, Transform, Load)** untuk me
 
 ---
 
-## 🧩 Struktur Proyek
+## Struktur Proyek
 
 ```
 .
@@ -41,7 +41,7 @@ Proyek ini membangun sebuah pipeline **ETL (Extract, Transform, Load)** untuk me
 
 ---
 
-## 🚀 Menjalankan Proyek
+## Menjalankan Proyek
 
 1. **Menjalankan pipeline ETL:**
 ```bash
@@ -60,7 +60,7 @@ coverage run -m pytest tests
 
 ---
 
-## 📄 Spesifikasi Kolom Output
+## Spesifikasi Kolom Output
 
 | Kolom   | Tipe   | Deskripsi                                         |
 |---------|--------|---------------------------------------------------|
@@ -73,7 +73,7 @@ coverage run -m pytest tests
 
 ---
 
-## ✅ Validasi Data
+## Validasi Data
 
 - **Kolom `price`** sudah dikalikan Rp16.000 dan bertipe float.
 - **Kolom `rating`** diformat sebagai float (contoh: `4.2`) – nilai seperti `4.8 / 5` atau `Invalid` dihapus.
@@ -83,7 +83,7 @@ coverage run -m pytest tests
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Tersedia di file [requirements.txt](requirements.txt), dan mencakup:
 - `requests`
