@@ -1,4 +1,4 @@
-# 🧵 ETL Pipeline - Fashion Studio
+# ETL Pipeline - Fashion Studio
 
 Proyek ini membangun sebuah pipeline **ETL (Extract, Transform, Load)** untuk mengekstrak data produk fashion dari website kompetitor, melakukan transformasi serta pembersihan data, lalu menyimpannya ke dalam file CSV, PostgreSQL, dan (opsional) Google Sheets.
 
